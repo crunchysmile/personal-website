@@ -3,20 +3,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .landing-page{
     width: 100%;
-    height: 80vh;
-    background-image:url("images/bindas.jpg");
+    height: 100vh;
+    background-image:linear-gradient(0,0,0,0.5,) url("images/bindas.jpg");
+    background-image: url("images/bindas.jpg");
     background-repeat: no-repeat;
     background-position:center;
-    background-position-y: -50px;
+    background-position-y:-100px;
     background-size: cover;
-    
-   
+    position: fixed;
+    z-index: -1;
+}
+.landing-page-up{
+    width: 100%;
+    height: 60vh;
+    background-color:rgba(39, 26, 26, 0.657);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .contact{
     width: 100%;
-    height: 100vh;
+    height:45vh;
     background-color: crimson;
     z-index: -2;
+}
+.message{
+    color: white;
+    
+}
+.land-in{
+    width: 80%;
+    color: rgba(255, 255, 255, 0.692);
+}
+.caution{
+    color: red;
+    background-color: rgba(255, 255, 255, 0.698);
+    margin-top: 10vh;
+    border-radius: 5px;
+    border: 2px solid yellow;
+    padding: 2vw;
+}
+
+.contact{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fa{
+    color: white;
+}
+.social-medias{
+ width: 50%;
+ margin: 0 auto;
+ display: flex;
+ flex-direction:row;
+ justify-content: space-around;
+   
 }
